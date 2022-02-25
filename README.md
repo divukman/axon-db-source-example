@@ -1,6 +1,15 @@
 # Example of custom spring boot axon db source configuration
 
-## Running
+## Main branch (H2 db)
+
+- Using H2 database for AXON event store
+- Using separate H2 database for orders 
+- You can change AXON H2 to store in a file, thus being able to replay events on startup!
+- Boostrap class will replay the axon events and this will, in turn populate the orders in memory H2 database
+
+
+
+## Running Postgres version -> Go to postgres branch
 
 ### Create local Postgres axon database
 

@@ -10,7 +10,6 @@ import tech.dimitar.other.events.OrderCreatedEvent;
 import tech.dimitar.other.query.model.Order;
 import tech.dimitar.other.query.queries.FindAllOrderedProductsQuery;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
